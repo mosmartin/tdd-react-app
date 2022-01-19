@@ -18,6 +18,15 @@ export const SignUp = () => {
         name="password"
         placeholder="Password"
       />
+
+      <input
+        type="password"
+        aria-label="confirm password"
+        name="confirm-password"
+        placeholder="Confirm Password"
+      />
+
+      <button disabled>Sign Up</button>
     </>
   );
 };
